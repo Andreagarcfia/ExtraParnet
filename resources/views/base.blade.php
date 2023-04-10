@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>@yield('title')</title>
+    <title>parNET | @yield('title')</title>
 
     {{-- CSRF Token meta tag --}}
     <meta id='csrf' name='csrf-token' content='{{ csrf_token() }}'>
@@ -22,9 +22,7 @@
      {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"> --}}
     <!-- JAVASCRIPT -->
     <!-- Fontawesome -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js'
-        integrity='sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=='
-        crossorigin='anonymous'></script>
+    <script src="https://kit.fontawesome.com/ae5d17b983.js" crossorigin="anonymous"></script>
     <!-- JQUERY -->
     <script src='{{ asset('lib/jquery/jquery.min.js') }}' defer></script>
     <!-- BOOTSTRAP -->
