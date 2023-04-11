@@ -2,7 +2,7 @@
 Pasos para instalar el proyecto<br>
 1.- crear un doc .env con las credenciales<br>
 2.- composer install <br>
-    nbsp; -   Nota: si le faltan algunas instalaciones en composer solo ingresarlo como (composer install --ignore-platform-req="Aqui va lo que le falta de composer")<br>
+&nbsp; -   Nota: si le faltan algunas instalaciones en composer solo ingresarlo como (composer install --ignore-platform-req="Aqui va lo que le falta de composer")<br>
 3.- Crear una base de datos vacia en tu base de datos, debe coinsidir con lo ingresado en tu .env<br>
 4.- php artisan migrate <-- para crear las tablas y registros basicos<br>
 5.- php artisan key:generate<br>
