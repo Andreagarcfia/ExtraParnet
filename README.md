@@ -1,3 +1,15 @@
+## About Laravel
+Pasos para instalar el proyecto
+1.- crear un doc .env con las credenciales
+2.- composer install 
+    -   Nota: si le faltan algunas instalaciones en composer solo ingresarlo como (composer install --ignore-platform-req="Aqui va lo que le falta de composer")
+3.- Crear una base de datos vacia en tu base de datos, debe coinsidir con lo ingresado en tu .env
+4.- php artisan migrate <-- para crear las tablas y registros basicos
+5.- php artisan key:generate
+6.- php artisan seed
+7.- php artisan storage:link <-- para las imagenes
+8.- php artisan serve <-- para ejecutar el proyecto
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
