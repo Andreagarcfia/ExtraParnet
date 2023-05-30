@@ -10,16 +10,24 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{asset('assets/c1.jpg')}}" class="d-block w-100" alt="...">
+                    <a href="https://telmex.com/" > 
+                        <img src="{{asset('assets/c1.jpg')}}" class="d-block w-100" alt="..." >
+                    </a>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{asset('assets/c2.png')}}" class="d-block w-100" alt="...">
+                    <a href="https://axtelcorp.mx/" > 
+                        <img src="{{asset('assets/c2.png')}}" class="d-block w-100" alt="...">
+                    </a>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{asset('assets/c3.png')}}" class="d-block w-100" alt="...">
+                    <a href="https://megacable.com.mx/" > 
+                        <img src="{{asset('assets/c3.png')}}" class="d-block w-100" alt="...">
+                    </a>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{asset('assets/c4.jpg')}}" class="d-block w-100" alt="...">
+                    <a href="https://totalplay.com.mx/" > 
+                        <img src="{{asset('assets/c4.jpg')}}" class="d-block w-100" alt="...">
+                    </a>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"

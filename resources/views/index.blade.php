@@ -37,10 +37,10 @@
         </div>
     </div>
     <div class="row mt-4 text-white">
-        <div class="col-12 col-md-4 d-flex justify-content-center">
+        <div class="col-12 col-md-4 d-flex justify-content-center foto">
             <img src="{{ asset('assets/Callcentre.png') }}" alt="callcenter">
         </div>
-        <div class="col-12 col-md-8 text-center">
+        <div class="col-12 col-md-8 text-center parrafo">
             <p class="p-control" style="color: yellow; text-decoration:none !important;font-size:16px !important;">
                 ¿Cual es el objetivo principal de PARNET?
             </p>
@@ -61,10 +61,10 @@
     </div>
 
     <div class="row mt-4 text-white mb-4">
-        <div class="col-12 col-md-4 d-flex justify-content-center">
+        <div class="col-12 col-md-4 d-flex justify-content-center foto">
             <img src="{{ asset('assets/Imax.png') }}" alt="callcenter">
         </div>
-        <div class="col-12 col-md-8 text-center">
+        <div class="col-12 col-md-8 text-center parrafo">
             <p class="p-control" style="color: yellow; text-decoration:none !important;font-size:16px !important;">
                 ¿Hay buena energía dentro de su empresa?
             </p>
